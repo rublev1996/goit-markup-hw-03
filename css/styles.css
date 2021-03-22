@@ -17,8 +17,6 @@ ul{
     font-family: inherit;
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
 }
 
 .conteiner {
@@ -26,7 +24,7 @@ ul{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0px;
+    margin: 0auto;
 }
 
 .index-list-item:not(:last-child){
