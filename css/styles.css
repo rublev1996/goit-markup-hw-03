@@ -24,6 +24,7 @@ ul{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0px auto;
 }
 
 .index-list-item:not(:last-child){
@@ -387,6 +388,8 @@ ul{
     flex-direction: column;
     padding-top: 200px;
     padding-bottom:200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .main-title{
