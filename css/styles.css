@@ -17,8 +17,6 @@ ul{
     font-family: inherit;
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
 }
 
 .conteiner {
@@ -26,7 +24,7 @@ ul{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 .index-list-item:not(:last-child){
@@ -84,8 +82,6 @@ ul{
 /*HEARER*/
 
 .header{
-    padding-left: 215px;
-    padding-right: 215px;
     border-bottom: 1px solid #ECECEC;;
 }
 
@@ -97,7 +93,6 @@ ul{
     justify-content: space-between;
     
 }
-
 .navigation-panel {
     display: flex;
     align-items: center;
@@ -188,9 +183,9 @@ ul{
 }
 
 
-.contact:active,
-.contact:focus,
-.contact:hover{
+.contact-active:active,
+.contact-active:focus,
+.contact-active:hover{
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
@@ -216,7 +211,6 @@ ul{
 .footer-division{
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 60px;
     background-color: var(--footer-backcground);
 }
 
@@ -342,28 +336,34 @@ ul{
     display: flex;
     margin-right: 30px;
     margin-bottom: 30px;
-    padding-bottom: 20px;
     flex-direction: column;
     width: 370px;
-    border-bottom: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
     flex-basis: calc((100-90px)/3);
+}
+
+.portfolio-card-list-item:nth-child(3n+3){
+    margin-right: 0px;
 }
 
 .case-text-division {
     padding-left: 24px;
+    padding-top:20px;
+    padding-bottom: 20px;
+
 }
 
 .case-name{
+    padding-top: 4px;
+    margin-top: 0px;
     font-family: inherit;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 20px;
     line-height: 2;
 }
 
 .desription {
-    margin-top: 40px;
     font-family: inherit;
     font-size: 16px;
     line-height: 1.8;
@@ -378,8 +378,16 @@ ul{
 }
 
 .hero {
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-color:var(--hero-section-background) ;
 }
+
+.hero .section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 
 .hero-section{
     display: flex;
@@ -423,7 +431,10 @@ ul{
 
 .advantages {
     background-color: var(--advantage-section-background);
+    padding-bottom: 0px;
+
 } 
+
 .advantages-list{
     font-family: inherit;
     display: flex;
@@ -509,18 +520,21 @@ ul{
 }
 
 .staff-card {
-    padding-bottom:30px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--staff-card-background);
 }
 
+.staff-description-division {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .staff-unit{
     font-family: inherit;
-    margin-top: 30px;
     align-self: center;
     font-style: normal;
     font-weight: 500;
