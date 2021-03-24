@@ -24,7 +24,6 @@ ul{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0px auto;
 }
 
 .index-list-item:not(:last-child){
@@ -382,12 +381,6 @@ ul{
     padding-bottom: 0px;
     background-color:var(--hero-section-background) ;
 }
-
-.hero .section {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
 
 .hero-section{
     display: flex;
